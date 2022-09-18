@@ -1,0 +1,24 @@
+//libs
+@import './libs/bootstrap-reboot';
+@import './libs/bootstrap-grid';
+
+//base
+@import './base/reset';
+@import './base/base';
+
+//blocks
+@import './blocks/social-icons';
+@import './blocks/logo';
+@import './blocks/buttons';
+@import './blocks/post';
+@import './blocks/share-icons';
+@import './blocks/pagination';
+@import './blocks/widget';
+@import './blocks/post-widget';
+@import './blocks/instagram-posts';
+@import './blocks/copyright';
+@import './blocks/footer-nav';
+
+//sections 
+@import './sections/header';
+@import './sections/footer';

@@ -1,0 +1,15 @@
+mixin footer-nav(navItems)
+
+    ul.footer-nav
+
+        each item in navItems
+
+            li.footer-nav__item 
+                a(href= item.link).footer-nav__link #{item.title}
+
+        //- li.footer-nav__item 
+        //-     a(href="#").footer-nav__link
+        //-         | Latest posts 
+        //- li.footer-nav__item 
+        //-     a(href="#").footer-nav__link
+        //-         | Popular posts 

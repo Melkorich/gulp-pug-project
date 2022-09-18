@@ -1,0 +1,20 @@
+.header {
+    padding: 50px 60px;
+    border-bottom: 1px solid #DDE2E7;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+    }
+
+    &__search-icon {
+        margin-right: 40px;
+        cursor: pointer;
+    }
+}
